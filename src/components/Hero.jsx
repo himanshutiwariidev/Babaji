@@ -25,7 +25,7 @@ export default function Hero() {
         loop={true}
         pagination={{ clickable: true }}
         navigation={true}
-        className="h-[300px] md:h-[500px] lg:h-[650px]"
+        className="h-[280px] md:h-[500px] lg:h-[650px]"
       >
         {banners.map((banner, index) => (
           <SwiperSlide key={index}>

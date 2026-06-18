@@ -19,8 +19,9 @@ export default function Home() {
  
    <Hero/>
     <MarqueeSlider/>
+    <StatsSection/>
     <TopCategories categories={productsData.categories} />
-        <StatsSection/>
+        
 
       <TopProducts products={productsData.products} />
    <AboutBabaji/>

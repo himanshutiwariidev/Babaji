@@ -37,15 +37,6 @@ const STATS = [
   },
 ];
 
-const TRUST_PILLS = [
-  "FSSAI Certified",
-  "100% Pure & Natural",
-  "Pan India Delivery",
-  "Wholesale Available",
-  "Trusted Quality",
-  "Premium Products",
-];
-
 function easeOut(t) {
   return 1 - Math.pow(1 - t, 3);
 }
@@ -88,33 +79,31 @@ function StatCard({ stat, active, index }) {
   );
 
   return (
-    <div className="group relative overflow-hidden rounded-3xl  border border-white shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 p-6">
+    <div className="group relative overflow-hidden rounded-2xl md:rounded-3xl border border-gray-100 bg-white shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-500 p-3 sm:p-4 md:p-6 mb-2">
       
-     
-
       {/* Icon */}
-      <div className="relative w-14 h-14 rounded-2xl  text-white flex items-center justify-center text-2xl shadow-lg mb-5">
+      <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-gradient-to-r from-red-500 to-orange-500 text-white flex items-center justify-center text-lg sm:text-xl md:text-2xl shadow-lg mb-3 md:mb-5">
         {stat.icon}
       </div>
 
       {/* Counter */}
       <div className="relative flex items-end gap-1">
-        <span className="text-5xl font-black text-gray-900 leading-none">
+        <span className="text-2xl sm:text-3xl md:text-5xl font-black text-gray-900 leading-none">
           {value}
         </span>
 
-        <span className="text-2xl font-black text-red-600 mb-1">
+        <span className="text-sm sm:text-lg md:text-2xl font-black text-red-600 mb-0.5 md:mb-1">
           {stat.suffix}
         </span>
       </div>
 
       {/* Label */}
-      <p className="mt-3 text-gray-600 font-medium">
+      <p className="mt-2 md:mt-3 text-xs sm:text-sm md:text-base text-gray-600 font-medium leading-snug">
         {stat.label}
       </p>
 
-      {/* Progress */}
-      <div className="mt-5 h-2 bg-gray-100 rounded-full overflow-hidden">
+      {/* Progress Bar */}
+      <div className="mt-3 md:mt-5 h-1.5 md:h-2 bg-gray-100 rounded-full overflow-hidden">
         <div
           className="h-full rounded-full bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 transition-all duration-[1800ms]"
           style={{
@@ -123,7 +112,8 @@ function StatCard({ stat, active, index }) {
         />
       </div>
 
-      <div className="mt-2 text-xs text-gray-400 text-right font-medium">
+      {/* Growth Text */}
+      <div className="mt-1 md:mt-2 text-[10px] sm:text-xs text-gray-400 text-right font-medium">
         {stat.barPct}% Growth
       </div>
     </div>
@@ -159,33 +149,29 @@ export default function StatsSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative overflow-hidden py-10"
+      className="relative overflow-hidden py-8 md:py-12"
     >
-     
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Badge */}
-        <div className="">
-          <span className="inline-flex items-center  text-red-600 text-sm font-semibold uppercase ">
-        Trusted Since Generations
+        <div>
+          <span className="inline-flex items-center text-red-600 text-xs sm:text-sm font-semibold uppercase tracking-wider">
+            Trusted Since Generations
           </span>
         </div>
 
         {/* Heading */}
-        <div className=" mt-2 mb-14">
-          <h2 className="text-2xl md:text-4xl font-black text-gray-900 leading-tight">
-            Growing with
-            <span className=" bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 bg-clip-text text-transparent">
-               Trust & Quality
+        <div className="mt-2 mb-8 md:mb-14">
+          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight">
+            Growing with{" "}
+            <span className="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 bg-clip-text text-transparent">
+              Trust & Quality
             </span>
           </h2>
-
-         
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
           {STATS.map((stat, index) => (
             <StatCard
               key={stat.id}
@@ -196,9 +182,6 @@ export default function StatsSection() {
           ))}
         </div>
 
-        
-        
-        
       </div>
     </section>
   );
