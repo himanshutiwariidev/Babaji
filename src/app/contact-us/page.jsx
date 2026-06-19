@@ -18,7 +18,7 @@ export default function ContactPage() {
       <section className=" bg-gray-50">
         <div className="w-full h-[180px] md:h-[500px]">
           <img
-            src="/contact.png"
+            src="/contact.webp"
             alt=""
             className="w-full h-full object-cover"
           />

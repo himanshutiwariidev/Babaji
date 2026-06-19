@@ -4,21 +4,21 @@
       "id": "cat-001",
       "name": "Edible Oils",
       "slug": "edible-oils",
-      "image": "/edible.png",
+      "image": "/edible.webp",
       "description": "Pure & natural oils cold-pressed for superior taste and nutrition"
     },
     {
       "id": "cat-002",
       "name": "Besan",
       "slug": "besan",
-      "image": "/Besan.png",
+      "image": "/Besan.webp",
       "description": "Stone-ground gram flour for authentic Indian cooking"
     },
     {
       "id": "cat-003",
       "name": "Atta",
       "slug": "atta",
-      "image": "/atta.png",
+      "image": "/atta.webp",
       "description": "Whole wheat chakki atta for soft, nutritious rotis"
     },
     {
@@ -64,7 +64,7 @@
       "name": "Mustard Oil Kachi Ghani",
       "slug": "mustard-oil-kachi-ghani",
       "category": "Edible Oils",
-      "image": "/kanchighani.png",
+      "image": "/kanchighani.webp",
       "sku": "EO001",
       "stock": 100,
       "description": "Extracted through the traditional cold-press (Kachi Ghani) method, this mustard oil retains its natural pungency, golden colour, and full nutritional profile. Ideal for pickles, stir-fries, and authentic North Indian cooking.",
@@ -129,7 +129,7 @@
       "name": "Barik Besan",
       "slug": "barik-besan",
       "category": "Besan",
-      "image": "/besanproduct.png",
+      "image": "/besanproduct.webp",
       "sku": "BS001",
       "stock": 100,
       "description": "Ultra-fine chickpea flour ground from premium chana dal. Its smooth texture makes it the go-to choice for crispy pakodas, silky gravies, and ladoo. Consistently uniform grain with no grit.",

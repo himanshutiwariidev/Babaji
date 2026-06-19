@@ -8,9 +8,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const banners = [
-  "/banner1.png",
-  "/banner1.png",
-  "/banner1.png",
+  "/banner1.webp",
+  "/banner1.webp",
+  "/banner1.webp",
 ];
 
 export default function Hero() {

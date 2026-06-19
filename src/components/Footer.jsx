@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
 
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="Babaji Brand"
               className="h-20 w-auto mb-6"
             />

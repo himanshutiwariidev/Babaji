@@ -3,7 +3,7 @@ export default function AboutBabaji() {
     <section
       className="relative overflow-hidden py-5 lg:py-10 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/bgimage.png')", // Your downloaded image
+        backgroundImage: "url('/bgimage.webp')", // Your downloaded image
       }}
     >
       {/* Dark Overlay */}

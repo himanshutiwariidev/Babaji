@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="bg-white">
        <div className="w-full h-[150px] md:h-[500px]">
           <img
-            src="/about.png"
+            src="/about.webp"
             alt=""
             className="w-full h-full object-cover"
           />
