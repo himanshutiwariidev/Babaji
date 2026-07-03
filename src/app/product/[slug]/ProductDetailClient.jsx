@@ -53,6 +53,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
                 src={product.image || "/products/default.jpg"}
                 alt={product.name}
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-contain p-8"
                 priority
               />
@@ -183,6 +184,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
                       src={rp.image || "/products/default.jpg"}
                       alt={rp.name}
                       fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                       className="object-contain p-4 group-hover:scale-[1.04] transition-transform duration-300"
                     />
                   </div>

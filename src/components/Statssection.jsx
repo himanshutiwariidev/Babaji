@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { Tags, Package, Heart, Repeat } from "lucide-react";
 
 const STATS = [
   {
@@ -8,32 +9,28 @@ const STATS = [
     target: 10,
     suffix: "+",
     label: "Product Categories",
-    barPct: 100,
-    icon: "🏷️",
+    icon: Tags,
   },
   {
     id: "products",
     target: 50,
     suffix: "+",
     label: "Premium Products",
-    barPct: 85,
-    icon: "📦",
+    icon: Package,
   },
   {
     id: "customers",
     target: 500,
     suffix: "+",
     label: "Happy Customers",
-    barPct: 90,
-    icon: "❤️",
+    icon: Heart,
   },
   {
     id: "retention",
     target: 90,
     suffix: "%",
     label: "Repeat Orders",
-    barPct: 95,
-    icon: "🔄",
+    icon: Repeat,
   },
 ];
 
@@ -72,50 +69,25 @@ function useCountUp(target, duration, active) {
 }
 
 function StatCard({ stat, active, index }) {
-  const value = useCountUp(
-    stat.target,
-    1200 + index * 150,
-    active
-  );
+  const value = useCountUp(stat.target, 1200 + index * 150, active);
+  const Icon = stat.icon;
 
   return (
-    <div className="group relative overflow-hidden rounded-2xl md:rounded-3xl border border-gray-100 bg-white shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-500 p-3 sm:p-4 md:p-6 mb-2">
-      
-      {/* Icon */}
-      <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-gradient-to-r from-red-500 to-orange-500 text-white flex items-center justify-center text-lg sm:text-xl md:text-2xl shadow-lg mb-3 md:mb-5">
-        {stat.icon}
-      </div>
+    <div className="flex flex-col items-center text-center px-4 py-6">
+      <Icon className="w-5 h-5 text-red-600 mb-2.5" strokeWidth={1.75} />
 
-      {/* Counter */}
-      <div className="relative flex items-end gap-1">
-        <span className="text-2xl sm:text-3xl md:text-5xl font-black text-gray-900 leading-none">
+      <div className="flex items-end gap-0.5">
+        <span className="text-3xl md:text-4xl font-bold text-gray-900 leading-none tracking-tight">
           {value}
         </span>
-
-        <span className="text-sm sm:text-lg md:text-2xl font-black text-red-600 mb-0.5 md:mb-1">
+        <span className="text-lg md:text-xl font-bold text-red-600">
           {stat.suffix}
         </span>
       </div>
 
-      {/* Label */}
-      <p className="mt-2 md:mt-3 text-xs sm:text-sm md:text-base text-gray-600 font-medium leading-snug">
+      <p className="mt-2 text-xs md:text-sm text-gray-500 font-medium">
         {stat.label}
       </p>
-
-      {/* Progress Bar */}
-      <div className="mt-3 md:mt-5 h-1.5 md:h-2 bg-gray-100 rounded-full overflow-hidden">
-        <div
-          className="h-full rounded-full bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 transition-all duration-[1800ms]"
-          style={{
-            width: active ? `${stat.barPct}%` : "0%",
-          }}
-        />
-      </div>
-
-      {/* Growth Text */}
-      <div className="mt-1 md:mt-2 text-[10px] sm:text-xs text-gray-400 text-right font-medium">
-        {stat.barPct}% Growth
-      </div>
     </div>
   );
 }
@@ -147,41 +119,13 @@ export default function StatsSection() {
   }, []);
 
   return (
-    <section
-      ref={sectionRef}
-      className="relative overflow-hidden py-8 md:py-12"
-    >
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        {/* Badge */}
-        <div>
-          <span className="inline-flex items-center text-red-600 text-xs sm:text-sm font-semibold uppercase tracking-wider">
-            Trusted Since Generations
-          </span>
-        </div>
-
-        {/* Heading */}
-        <div className="mt-2 mb-8 md:mb-14">
-          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight">
-            Growing with{" "}
-            <span className="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 bg-clip-text text-transparent">
-              Trust & Quality
-            </span>
-          </h2>
-        </div>
-
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
+    <section ref={sectionRef} className="py-8 md:py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-gray-200 border-y border-gray-200">
           {STATS.map((stat, index) => (
-            <StatCard
-              key={stat.id}
-              stat={stat}
-              active={active}
-              index={index}
-            />
+            <StatCard key={stat.id} stat={stat} active={active} index={index} />
           ))}
         </div>
-
       </div>
     </section>
   );

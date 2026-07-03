@@ -11,13 +11,9 @@ export default function Navbar() {
 
   const categories = [
     { name: "Edible Oils", slug: "edible-oils" },
-    { name: "Besan", slug: "besan" },
-    { name: "Atta", slug: "atta" },
-    { name: "Maida", slug: "maida" },
-    { name: "Poha", slug: "poha" },
-    { name: "Sooji", slug: "sooji" },
+    { name: "Flour & mixes", slug: "flour-mixes" },
     { name: "Pulses", slug: "pulses" },
-    { name: "Detergent Bar", slug: "detergent-bar" },
+    { name: "Detergent Bar", slug: "detergent" },
   ];
 
   return (
@@ -72,12 +68,12 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Link
+           {/*  <Link
               href="#"
               className="hover:text-gray-200 transition"
             >
               FOOD QUALITY
-            </Link>
+            </Link> */}
 
             <Link
               href="/about-us"
@@ -93,7 +89,7 @@ export default function Navbar() {
               CONTACT US
             </Link>
 
-            <Link href="#" className="hover:text-gray-200 transition">
+            <Link href="/products" className="hover:text-gray-200 transition">
               BUY NOW
             </Link>
 
@@ -161,14 +157,14 @@ export default function Navbar() {
                 </div>
               )}
 
-              <Link
+              {/* <Link
                 href="#"
                 className="border-b border-red-500 py-3"
                 onClick={() => setMobileMenu(false)}
               >
                 FOOD QUALITY
               </Link>
-
+ */}
               <Link
                 href="/about-us"
                 className="border-b border-red-500 py-3"
@@ -186,7 +182,7 @@ export default function Navbar() {
               </Link>
 
               <Link
-                href="#"
+                href="/products"
                 className="border-b border-red-500 py-3"
                 onClick={() => setMobileMenu(false)}
               >

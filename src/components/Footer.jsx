@@ -21,13 +21,13 @@ export default function Footer() {
       {/* Background Pattern */}
       <div className="absolute inset-0">
         <div
-          className="absolute inset-0 opacity-20 bg-cover bg-center"
+          className="absolute inset-0 opacity-[0.07]"
           style={{
-            backgroundImage: "url('/footer-pattern.png')",
+            backgroundImage:
+              "radial-gradient(rgba(255,255,255,0.6) 1px, transparent 1px)",
+            backgroundSize: "22px 22px",
           }}
         />
-
-        <div className="absolute inset-0 bg-black/80" />
       </div>
 
       {/* Main Footer */}

@@ -20,7 +20,7 @@ export default function Home() {
    <Hero/>
     <MarqueeSlider/>
     <StatsSection/>
-    <TopCategories categories={productsData.categories} />
+    <TopCategories categories={productsData.categories} products={productsData.products} />
         
 
       <TopProducts products={productsData.products} />

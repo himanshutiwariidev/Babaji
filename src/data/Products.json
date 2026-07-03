@@ -4,56 +4,30 @@
       "id": "cat-001",
       "name": "Edible Oils",
       "slug": "edible-oils",
-      "image": "/edible.webp",
+      "image": "/images/edible.png",
       "description": "Pure & natural oils cold-pressed for superior taste and nutrition"
     },
+   
     {
       "id": "cat-002",
-      "name": "Besan",
-      "slug": "besan",
-      "image": "/Besan.webp",
-      "description": "Stone-ground gram flour for authentic Indian cooking"
+      "name": "flour & mixes",
+      "slug": "flour-mixes",
+      "image": "/images/flour.png",
+      "description": "High-quality flours and baking mixes for all your culinary needs"
     },
+   
     {
       "id": "cat-003",
-      "name": "Atta",
-      "slug": "atta",
-      "image": "/atta.webp",
-      "description": "Whole wheat chakki atta for soft, nutritious rotis"
-    },
-    {
-      "id": "cat-004",
-      "name": "Maida",
-      "slug": "maida",
-      "image": "/maida.png",
-      "description": "Finely milled refined flour for baking and cooking"
-    },
-    {
-      "id": "cat-005",
-      "name": "Poha",
-      "slug": "poha",
-      "image": "/poha.png",
-      "description": "Light, flattened rice flakes for quick and healthy meals"
-    },
-    {
-      "id": "cat-006",
-      "name": "Sooji",
-      "slug": "sooji",
-      "image": "/categories/sooji.png",
-      "description": "Premium semolina for halwa, upma, and traditional sweets"
-    },
-    {
-      "id": "cat-007",
       "name": "Pulses",
       "slug": "pulses",
-      "image": "/categories/pulses.png",
+      "image": "/images/pulses.png",
       "description": "Protein-rich lentils and legumes, cleaned and ready to cook"
     },
     {
-      "id": "cat-008",
-      "name": "Detergent Bar",
-      "slug": "detergent-bar",
-      "image": "/categories/detergent-bar.png",
+      "id": "cat-004",
+      "name": "Detergent",
+      "slug": "detergent",
+      "image": "/images/detergent.png",
       "description": "Powerful stain-fighting bars for long-lasting fabric care"
     }
   ],
@@ -67,314 +41,365 @@
       "image": "/kanchighani.webp",
       "sku": "EO001",
       "stock": 100,
-      "description": "Extracted through the traditional cold-press (Kachi Ghani) method, this mustard oil retains its natural pungency, golden colour, and full nutritional profile. Ideal for pickles, stir-fries, and authentic North Indian cooking.",
+      "description": "Traditional cold-pressed mustard oil with rich aroma and natural nutrition.",
       "highlights": [
-        "Cold-pressed Kachi Ghani process",
-        "Rich in Omega-3 & Omega-6 fatty acids",
-        "Zero trans fats, no artificial additives",
-        "FSSAI certified & quality tested"
+        "Cold pressed",
+        "Rich in Omega 3 & 6",
+        "No trans fat",
+        "Quality tested"
       ],
       "variants": [
-        { "quantity": "1 Litre"},
-        { "quantity": "5 Litre" }
+        {
+          "quantity": "1 Litre"
+        },
+        {
+          "quantity": "5 Litre"
+        }
       ],
-      "relatedProducts": ["Yellow Mustard Oil", "Soyabeen Oil", "Til Oil"]
+      "relatedProducts": [
+        "Soyabean Oil",
+        "Til Oil"
+      ]
     },
-   
     {
-      "id": "P003",
-      "name": "Soyabeen Oil",
-      "slug": "soyabeen-oil",
+      "id": "P002",
+      "name": "Soyabean Oil",
+      "slug": "soyabean-oil",
       "category": "Edible Oils",
       "image": "/soyabeanoil.png",
-      "sku": "EO003",
+      "sku": "EO002",
       "stock": 100,
-      "description": "A light, neutral-tasting oil refined from soybeans. With a high smoke point and a balanced fatty acid profile, it is a versatile kitchen essential for frying, baking, and salad dressings.",
+      "description": "Light refined soybean oil suitable for everyday cooking.",
       "highlights": [
-        "Neutral taste, suits all cuisines",
-        "High smoke point — great for frying",
-        "Good source of Vitamin E & K",
-        "Cholesterol-free, heart-friendly"
+        "High smoke point",
+        "Vitamin E",
+        "Neutral taste",
+        "Heart friendly"
       ],
       "variants": [
-        { "quantity": "1 Litre" },
-        { "quantity": "5 Litre"}
+        {
+          "quantity": "1 Litre"
+        },
+        {
+          "quantity": "5 Litre"
+        }
       ],
-      "relatedProducts": ["Yellow Mustard Oil", "Til Oil", "Sesame Oil"]
+      "relatedProducts": [
+        "Mustard Oil Kachi Ghani",
+        "Til Oil"
+      ]
     },
     {
-      "id": "P004",
+      "id": "P003",
       "name": "Til Oil",
       "slug": "til-oil",
       "category": "Edible Oils",
       "image": "/tiloil.png",
-      "sku": "EO004",
+      "sku": "EO003",
       "stock": 100,
-      "description": "Pressed from roasted sesame seeds, this oil carries a rich, nutty aroma that elevates stir-fries, marinades, and traditional recipes. A staple in South Indian and Asian kitchens.",
+      "description": "Premium sesame oil with rich nutty flavour.",
       "highlights": [
-        "Deep nutty aroma from roasted seeds",
-        "High in antioxidants & lignans",
-        "Natural preservative properties",
-        "Versatile — cooking & finishing oil"
+        "Natural aroma",
+        "Rich antioxidants",
+        "Premium quality",
+        "Traditional taste"
       ],
       "variants": [
-        { "quantity": "500 ML" },
-        { "quantity": "1 Litre" }
+        {
+          "quantity": "500 ML"
+        },
+        {
+          "quantity": "1 Litre"
+        }
       ],
-      "relatedProducts": [ "Mustard Oil Kachi Ghani"]
+      "relatedProducts": [
+        "Mustard Oil Kachi Ghani",
+        "Soyabean Oil"
+      ]
     },
-    
+    {
+      "id": "P004",
+      "name": "Atta",
+      "slug": "atta",
+      "category": "Flour & Mixes",
+      "image": "/mpatta.jpg",
+      "sku": "FM001",
+      "stock": 100,
+      "description": "Premium chakki atta for soft and nutritious rotis.",
+      "highlights": [
+        "Stone ground",
+        "High fibre",
+        "100% whole wheat",
+        "Freshly packed"
+      ],
+      "variants": [
+        {
+          "quantity": "5 KG"
+        },
+        {
+          "quantity": "10 KG"
+        }
+      ],
+      "relatedProducts": [
+        "Besan",
+        "Maida"
+      ]
+    },
+    {
+      "id": "P005",
+      "name": "Besan",
+      "slug": "besan",
+      "category": "Flour & Mixes",
+      "image": "/besanproduct.webp",
+      "sku": "FM002",
+      "stock": 100,
+      "description": "Premium gram flour for snacks and sweets.",
+      "highlights": [
+        "Fine grind",
+        "High protein",
+        "Fresh",
+        "Quality tested"
+      ],
+      "variants": [
+        {
+          "quantity": "500 GM"
+        },
+        {
+          "quantity": "1 KG"
+        }
+      ],
+      "relatedProducts": [
+        "Atta",
+        "Maida"
+      ]
+    },
     {
       "id": "P006",
-      "name": "Barik Besan",
-      "slug": "barik-besan",
-      "category": "Besan",
-      "image": "/besanproduct.webp",
-      "sku": "BS001",
+      "name": "Maida",
+      "slug": "maida",
+      "category": "Flour & Mixes",
+      "image": "/maidaproduct.png",
+      "sku": "FM003",
       "stock": 100,
-      "description": "Ultra-fine chickpea flour ground from premium chana dal. Its smooth texture makes it the go-to choice for crispy pakodas, silky gravies, and ladoo. Consistently uniform grain with no grit.",
+      "description": "Refined wheat flour with smooth texture.",
       "highlights": [
-        "Ultra-fine grind for smooth batters",
-        "Made from select chana dal",
-        "High protein & gluten-free",
-        "Ideal for pakodas, sweets & gravies"
+        "Fine texture",
+        "Ideal for baking",
+        "Premium quality",
+        "Freshly packed"
       ],
       "variants": [
-        { "quantity": "500 GM" },
-        { "quantity": "1 KG"}
+        {
+          "quantity": "500 GM"
+        },
+        {
+          "quantity": "1 KG"
+        }
       ],
-      "relatedProducts": ["Mota Besan", "Super Fine Dhokla Special"]
+      "relatedProducts": [
+        "Atta",
+        "Besan"
+      ]
     },
     {
       "id": "P007",
-      "name": "Mota Besan",
-      "slug": "mota-besan",
-      "category": "Besan",
-     "image": "/besanproduct.png",
-      "sku": "BS002",
+      "name": "Masur Sabut",
+      "slug": "masur-sabut",
+      "category": "Pulses",
+      "image": "/pulses/masursabut.webp",
+      "sku": "PL001",
       "stock": 100,
-      "description": "Coarsely ground chickpea flour with a rustic, earthy texture. Preferred for making thick, textured batters for bhajia and boondi, as well as traditional Rajasthani gatte.",
+      "description": "Premium whole masur lentils.",
       "highlights": [
-        "Coarse grind for textured batters",
-        "Perfect for boondi & gatte",
-        "High fibre, slow-digesting carbs",
-        "Stone-milled for authentic taste"
+        "High protein",
+        "Machine cleaned",
+        "Fresh",
+        "Premium quality"
       ],
       "variants": [
-        { "quantity": "500 GM" },
-        { "quantity": "1 KG"}
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
       ],
-      "relatedProducts": ["Barik Besan", "Kadhi Pakoda Besan"]
+      "relatedProducts": [
+        "Moong Sabut",
+        "Mix Dal",
+        "Urad Sabut"
+      ]
     },
     {
       "id": "P008",
-      "name": "Kadhi Pakoda Besan",
-      "slug": "kadhi-pakoda-besan",
-      "category": "Besan",
-    "image": "/besanproduct.png",
-      "sku": "BS003",
+      "name": "Moong Sabut",
+      "slug": "moong-sabut",
+      "category": "Pulses",
+      "image": "/pulses/moongsabut.webp",
+      "sku": "PL002",
       "stock": 100,
-      "description": "Specially blended besan with the perfect coarseness to create fluffy, light pakodas that hold their shape in kadhi. Formulated to give thick, glossy kadhi with superior binding.",
+      "description": "Premium whole green gram.",
       "highlights": [
-        "Optimised blend for kadhi & pakodas",
-        "Superior binding — pakodas don't break",
-        "Gives thick, creamy kadhi texture",
-        "No added starch or fillers"
+        "Nutritious",
+        "High protein",
+        "Machine cleaned",
+        "Fresh"
       ],
       "variants": [
-        { "quantity": "500 GM"},
-        { "quantity": "1 KG" }
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
       ],
-      "relatedProducts": ["Mota Besan", "Barik Besan"]
+      "relatedProducts": [
+        "Masur Sabut",
+        "Mix Dal",
+        "Urad Sabut"
+      ]
     },
     {
       "id": "P009",
-      "name": "Super Fine Dhokla Special",
-      "slug": "super-fine-dhokla-special",
-      "category": "Besan",
-    "image": "/besanproduct.png",
-      "sku": "BS004",
+      "name": "Mix Dal",
+      "slug": "mix-dal",
+      "category": "Pulses",
+      "image": "/pulses/mixdal.webp",
+      "sku": "PL003",
       "stock": 100,
-      "description": "A super-fine, sifted besan formulated specifically for steamed Gujarati dhokla. It ferments evenly, giving dhokla that is spongy, light, and perfectly porous with every batch.",
+      "description": "Healthy blend of premium dals.",
       "highlights": [
-        "Super-fine sift for even fermentation",
-        "Gives airy, spongy dhokla texture",
-        "Low bitterness, clean flavour profile",
-        "Consistent results every time"
+        "Balanced nutrition",
+        "Rich protein",
+        "Fresh",
+        "Quality packed"
       ],
       "variants": [
-        { "quantity": "500 GM" },
-        { "quantity": "1 KG" }
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
       ],
-      "relatedProducts": ["Barik Besan", "Moti Choor Besan"]
+      "relatedProducts": [
+        "Masur Sabut",
+        "Moong Sabut",
+        "Urad Sabut"
+      ]
     },
     {
       "id": "P010",
-      "name": "Moti Choor Besan",
-      "slug": "moti-choor-besan",
-      "category": "Besan",
-   "image": "/besanproduct.png",
-      "sku": "BS005",
+      "name": "Urad Sabut",
+      "slug": "urad-sabut",
+      "category": "Pulses",
+      "image": "/pulses/uradsabut.webp",
+      "sku": "PL004",
       "stock": 100,
-      "description": "A medium-coarse, specially processed besan for making the tiny, melt-in-mouth boondi used in moti choor ladoo. Creates perfectly round, even boondi with a delicate crunch.",
+      "description": "Premium whole urad dal.",
       "highlights": [
-        "Medium-coarse for perfect boondi",
-        "Creates round, even-sized droplets",
-        "Low moisture for longer shelf life",
-        "Ideal for moti choor & boondi ladoo"
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
       ],
       "variants": [
-        { "quantity": "500 GM"},
-        { "quantity": "1 KG"}
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
       ],
-      "relatedProducts": ["Barik Besan", "Mota Besan"]
+      "relatedProducts": [
+        "Masur Sabut",
+        "Moong Sabut",
+        "Mix Dal"
+      ]
     },
     {
       "id": "P011",
-      "name": "MP Chakki Atta",
-      "slug": "mp-chakki-atta",
-      "category": "Atta",
-      "image": "/mpatta.jpg",
-      "sku": "AT001",
+      "name": "OxyBoom Bartan Bar",
+      "slug": "oxyboom-bartan-bar",
+      "category": "Detergent",
+      "image": "/detargent/oxyboombartanbar.webp",
+      "sku": "DT001",
       "stock": 100,
-      "description": "Stone-ground whole wheat atta sourced from the fertile Madhya Pradesh wheat belt — known for producing India's finest sharbati wheat. Slow chakki milling preserves the bran, germ, and natural wheat flavour for soft, nutritious rotis.",
+      "description": "Dishwash bar for powerful grease removal.",
       "highlights": [
-        "Sharbati wheat from MP wheat belt",
-        "Slow stone-ground chakki process",
-        "Retains natural bran & wheat germ",
-        "Soft rotis with no added maida"
+        "Cuts grease",
+        "Rich foam",
+        "Fresh fragrance",
+        "Long lasting"
       ],
       "variants": [
-        { "quantity": "5 KG" },
-        { "quantity": "10 KG" }
+        {
+          "quantity": "250 GM"
+        },
+        {
+          "quantity": "500 GM"
+        }
       ],
-      "relatedProducts": []
+      "relatedProducts": [
+        "OxyBoom Detergent Powder",
+        "OxyBoom Detergent Bar"
+      ]
     },
     {
       "id": "P012",
-      "name": "Maida",
-      "slug": "maida",
-      "category": "Maida",
-      "image": "/maidaproduct.png",
-      "sku": "MD001",
+      "name": "OxyBoom Detergent Powder",
+      "slug": "oxyboom-detergent-powder",
+      "category": "Detergent",
+      "image": "/detargent/oxyboomdetargentpowder.webp",
+      "sku": "DT002",
       "stock": 100,
-      "description": "Finely milled, bleached refined flour with a super-smooth texture. An essential ingredient for bakery products, parathas, naan, samosa wrappers, and a wide range of Indian sweets.",
+      "description": "Advanced detergent powder for deep cleaning.",
       "highlights": [
-        "Extra-fine mill for smooth dough",
-        "High gluten content for elasticity",
-        "Even white colour, no lumps",
-        "Suits baking, frying & deep frying"
+        "Deep clean",
+        "Bright clothes",
+        "Machine & hand wash",
+        "Fresh fragrance"
       ],
       "variants": [
-        { "quantity": "500 GM" },
-        { "quantity": "1 KG"}
+        {
+          "quantity": "500 GM"
+        },
+        {
+          "quantity": "1 KG"
+        }
       ],
-      "relatedProducts": []
+      "relatedProducts": [
+        "OxyBoom Bartan Bar",
+        "OxyBoom Detergent Bar"
+      ]
     },
     {
       "id": "P013",
-      "name": "Poha",
-      "slug": "poha",
-      "category": "Poha",
-      "image": "/products/poha.jpg",
-      "sku": "PH001",
+      "name": "OxyBoom Detergent Bar",
+      "slug": "oxyboom-detergent-bar",
+      "category": "Detergent",
+      "image": "/detargent/oxyboomdetargentbar.webp",
+      "sku": "DT003",
       "stock": 100,
-      "description": "Medium-thick flattened rice flakes that are light, easy to cook, and naturally gluten-free. Soaks in minutes for classic poha breakfast, chivda, or as a binding agent in tikkis and kebabs.",
+      "description": "Detergent bar for effective stain removal.",
       "highlights": [
-        "Medium thickness — perfect soaking",
-        "Naturally gluten-free & light",
-        "Ready in under 10 minutes",
-        "Good source of iron & carbohydrates"
+        "Tough on stains",
+        "Fabric safe",
+        "Rich foam",
+        "Daily use"
       ],
       "variants": [
-        { "quantity": "500 GM" },
-        { "quantity": "1 KG" }
+        {
+          "quantity": "250 GM"
+        },
+        {
+          "quantity": "500 GM"
+        }
       ],
-      "relatedProducts": []
-    },
-    {
-      "id": "P014",
-      "name": "Sooji",
-      "slug": "sooji",
-      "category": "Sooji",
-      "image": "/products/sooji.jpg",
-      "sku": "SJ001",
-      "stock": 100,
-      "description": "Coarsely ground durum wheat semolina with a slightly grainy texture and a nutty aroma when toasted. The foundation of halwa, upma, suji roti, and countless Indian sweet preparations.",
-      "highlights": [
-        "Durum wheat for superior texture",
-        "Toasts to a rich, nutty aroma",
-        "Uniform granule size, no lumps",
-        "Versatile — savoury & sweet dishes"
-      ],
-      "variants": [
-        { "quantity": "500 GM" },
-        { "quantity": "1 KG"}
-      ],
-      "relatedProducts": []
-    },
-    {
-      "id": "P015",
-      "name": "Pulses",
-      "slug": "pulses",
-      "category": "Pulses",
-      "image": "/products/pulses.jpg",
-      "sku": "PL001",
-      "stock": 100,
-      "description": "A curated selection of premium-grade lentils and legumes, machine-cleaned and double-sorted to remove impurities. Packed fresh to retain natural colour, flavour, and maximum nutritional value.",
-      "highlights": [
-        "Machine-cleaned & double-sorted",
-        "Packed fresh for maximum nutrition",
-        "High protein — 20–25g per 100g",
-        "No artificial colour or preservatives"
-      ],
-      "variants": [
-        { "quantity": "1 KG" },
-        { "quantity": "5 KG" }
-      ],
-      "relatedProducts": []
-    },
-    {
-      "id": "P016",
-      "name": "Oxy Boom Detergent Bar",
-      "slug": "oxy-boom-detergent-bar",
-      "category": "Detergent Bar",
-      "image": "/products/oxy-boom.jpg",
-      "sku": "DB001",
-      "stock": 100,
-      "description": "Oxy Boom's active oxygen formula penetrates deep into fabric fibres to lift stubborn stains — from grease and mud to food and ink — in a single scrub. Gentle on hands, tough on stains.",
-      "highlights": [
-        "Active oxygen stain-lifting formula",
-        "Effective in hard & soft water",
-        "Gentle on fabric colours & fibres",
-        "Long-lasting bar — more washes per bar"
-      ],
-      "variants": [
-        { "quantity": "250 GM" },
-        { "quantity": "500 GM" }
-      ],
-      "relatedProducts": ["Sky Active Detergent Bar"]
-    },
-    {
-      "id": "P017",
-      "name": "Sky Active Detergent Bar",
-      "slug": "sky-active-detergent-bar",
-      "category": "Detergent Bar",
-      "image": "/products/sky-active.jpg",
-      "sku": "DB002",
-      "stock": 100,
-      "description": "Sky Active combines a powerful surfactant blend with a fresh fragrance to remove everyday dirt, sweat stains, and odours. Leaves clothes visibly brighter and smelling clean for longer.",
-      "highlights": [
-        "Powerful surfactant blend",
-        "Removes sweat & odour effectively",
-        "Leaves clothes brighter & fresher",
-        "Long-lasting fresh fragrance"
-      ],
-      "variants": [
-        { "quantity": "250 GM" },
-        { "quantity": "500 GM"}
-      ],
-      "relatedProducts": ["Oxy Boom Detergent Bar"]
+      "relatedProducts": [
+        "OxyBoom Bartan Bar",
+        "OxyBoom Detergent Powder"
+      ]
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { BadgeCheck, ShieldCheck } from "lucide-react";
 
 export default function TopProducts({ products = [] }) {
   return (
@@ -34,54 +35,62 @@ export default function TopProducts({ products = [] }) {
         {/* Products Grid */}
         {products?.length > 0 ? (
           <>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
               {products.slice(0, 8).map((product) => (
                 <div
                   key={product.id}
-                  className="group relative bg-white rounded-2xl overflow-hidden border border-gray-100 hover:border-red-100 hover:shadow-[0_8px_30px_rgba(220,38,38,0.08)] transition-all duration-300"
+                  className="group flex items-center gap-3 bg-white rounded-2xl p-4 border border-red-300 shadow-xl hover:border-red-100 hover:shadow-[0_8px_30px_rgba(220,38,38,0.08)] transition-all duration-300"
                 >
-                  {/* Red hover accent bar */}
-                  <span className="absolute left-0 top-0 h-full w-[3px] bg-red-600 scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-bottom rounded-r z-10" />
-
                   {/* Product Image */}
-                  <Link href={`/product/${product.slug}`} className="block">
-                    <div className="relative aspect-[4/3] bg-gray-50 overflow-hidden">
+                  <Link href={`/product/${product.slug}`} className="shrink-0">
+                    <div className="relative w-20 h-28 sm:w-24 sm:h-32">
                       <Image
                         src={product.image || "/products/default.jpg"}
                         alt={product.name}
                         fill
+                        sizes="(max-width: 640px) 80px, 96px"
                         className="object-contain group-hover:scale-[1.04] transition-transform duration-500 ease-out"
                       />
-
-                      {/* Subtle overlay on hover */}
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
                     </div>
                   </Link>
 
                   {/* Product Info */}
-                  <div className="p-3">
+                  <div className="flex-1 min-w-0">
                     {/* Category badge */}
-                    <span className="inline-block text-[10px] font-semibold tracking-widest uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
+                    <span className="inline-block text-[10px] font-semibold tracking-widest uppercase text-red-600">
                       {product.category}
                     </span>
 
                     {/* Name */}
-                    <h3 className="mt-1.5 text-sm font-semibold text-gray-900 line-clamp-1 leading-snug">
+                    <h3 className="mt-1 text-sm font-semibold text-gray-900 leading-snug">
                       {product.name}
                     </h3>
 
-                    {/* Price + Quantity */}
-                    <div className="mt-1.5 flex items-baseline justify-between">
-                     
-                      <span className="text-xs text-gray-400 font-medium">
-                        {product.variants?.[0]?.quantity}
-                      </span>
-                    </div>
+                    {/* Quantity */}
+                    <p className="mt-0.5 text-xs text-gray-400 font-medium">
+                      {product.variants?.[0]?.quantity}
+                    </p>
+
+                    {/* Highlights */}
+                    {product.highlights?.length > 0 && (
+                      <ul className="mt-2 space-y-1">
+                        {product.highlights.slice(0, 2).map((highlight, i) => (
+                          <li key={i} className="flex items-center gap-1.5 text-xs text-gray-600">
+                            {i === 0 ? (
+                              <BadgeCheck className="w-3.5 h-3.5 text-red-600 shrink-0" />
+                            ) : (
+                              <ShieldCheck className="w-3.5 h-3.5 text-red-600 shrink-0" />
+                            )}
+                            <span className="line-clamp-1">{highlight}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
 
                     {/* CTA */}
                     <Link
                       href={`/product/${product.slug}`}
-                      className="mt-2.5 flex items-center justify-center w-full bg-red-600 hover:bg-red-700 active:bg-red-800 text-white text-xs font-semibold py-2 rounded-lg transition-colors duration-150"
+                      className="mt-3 inline-flex items-center justify-center w-full bg-red-600 hover:bg-red-700 active:bg-red-800 text-white text-xs font-semibold py-2 rounded-lg transition-colors duration-150"
                     >
                       View Product
                     </Link>

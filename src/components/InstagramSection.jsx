@@ -1,6 +1,11 @@
 "use client";
 
-import { InstagramEmbed } from "react-social-media-embed";
+import dynamic from "next/dynamic";
+
+const InstagramEmbed = dynamic(
+  () => import("react-social-media-embed").then((mod) => mod.InstagramEmbed),
+  { ssr: false }
+);
 
 const posts = [
   "https://www.instagram.com/p/DZmwuPqyP9T/",
