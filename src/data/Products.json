@@ -7,7 +7,7 @@
       "image": "/images/edible-oil.png",
       "description": "Pure & natural oils cold-pressed for superior taste and nutrition"
     },
-   
+
     {
       "id": "cat-002",
       "name": "flour & mixes",
@@ -15,7 +15,7 @@
       "image": "/images/flour-mixes.png",
       "description": "High-quality flours and baking mixes for all your culinary needs"
     },
-   
+
     {
       "id": "cat-003",
       "name": "Pulses",
@@ -38,7 +38,7 @@
       "name": "Mustard Oil Kachi Ghani",
       "slug": "mustard-oil-kachi-ghani",
       "category": "Edible Oils",
-      "image": "/kanchighani.webp",
+      "image": "/oil/kachi-ghani.png",
       "sku": "EO001",
       "stock": 100,
       "description": "Traditional cold-pressed mustard oil with rich aroma and natural nutrition.",
@@ -56,17 +56,14 @@
           "quantity": "5 Litre"
         }
       ],
-      "relatedProducts": [
-        "Soyabean Oil",
-        "Til Oil"
-      ]
+      "relatedProducts": ["Soyabean Oil", "Til Oil"]
     },
     {
       "id": "P002",
-      "name": "Soyabean Oil",
-      "slug": "soyabean-oil",
+      "name": "Yellow Mustard Oil",
+      "slug": "yellow-mustard-oil",
       "category": "Edible Oils",
-      "image": "/soyabeanoil.png",
+      "image": "/oil/yellow-mustard.png",
       "sku": "EO002",
       "stock": 100,
       "description": "Light refined soybean oil suitable for everyday cooking.",
@@ -84,17 +81,14 @@
           "quantity": "5 Litre"
         }
       ],
-      "relatedProducts": [
-        "Mustard Oil Kachi Ghani",
-        "Til Oil"
-      ]
+      "relatedProducts": ["Mustard Oil Kachi Ghani", "Til Oil"]
     },
     {
       "id": "P003",
-      "name": "Til Oil",
-      "slug": "til-oil",
+      "name": "Cold Pressed Mustard Oil",
+      "slug": "cold-pressed-mustard-oil",
       "category": "Edible Oils",
-      "image": "/tiloil.png",
+      "image": "/oil/cold-press.png",
       "sku": "EO003",
       "stock": 100,
       "description": "Premium sesame oil with rich nutty flavour.",
@@ -112,17 +106,14 @@
           "quantity": "1 Litre"
         }
       ],
-      "relatedProducts": [
-        "Mustard Oil Kachi Ghani",
-        "Soyabean Oil"
-      ]
+      "relatedProducts": ["Mustard Oil Kachi Ghani", "Soyabean Oil"]
     },
     {
       "id": "P004",
-      "name": "Atta",
-      "slug": "atta",
+      "name": "Besan",
+      "slug": "besan",
       "category": "Flour & Mixes",
-      "image": "/mpatta.jpg",
+      "image": "/flour/besan.png",
       "sku": "FM001",
       "stock": 100,
       "description": "Premium chakki atta for soft and nutritious rotis.",
@@ -140,26 +131,18 @@
           "quantity": "10 KG"
         }
       ],
-      "relatedProducts": [
-        "Besan",
-        "Maida"
-      ]
+      "relatedProducts": ["Besan", "Maida"]
     },
     {
       "id": "P005",
-      "name": "Besan",
-      "slug": "besan",
+      "name": "Atta",
+      "slug": "atta",
       "category": "Flour & Mixes",
-      "image": "/besanproduct.webp",
+      "image": "/flour/atta.png",
       "sku": "FM002",
       "stock": 100,
       "description": "Premium gram flour for snacks and sweets.",
-      "highlights": [
-        "Fine grind",
-        "High protein",
-        "Fresh",
-        "Quality tested"
-      ],
+      "highlights": ["Fine grind", "High protein", "Fresh", "Quality tested"],
       "variants": [
         {
           "quantity": "500 GM"
@@ -168,17 +151,14 @@
           "quantity": "1 KG"
         }
       ],
-      "relatedProducts": [
-        "Atta",
-        "Maida"
-      ]
+      "relatedProducts": ["Atta", "Maida"]
     },
     {
       "id": "P006",
-      "name": "Maida",
-      "slug": "maida",
+      "name": "Besan",
+      "slug": "besan-box",
       "category": "Flour & Mixes",
-      "image": "/maidaproduct.png",
+      "image": "/flour/besan2.png",
       "sku": "FM003",
       "stock": 100,
       "description": "Refined wheat flour with smooth texture.",
@@ -196,17 +176,14 @@
           "quantity": "1 KG"
         }
       ],
-      "relatedProducts": [
-        "Atta",
-        "Besan"
-      ]
+      "relatedProducts": ["Atta", "Besan"]
     },
     {
       "id": "P007",
-      "name": "Masur Sabut",
-      "slug": "masur-sabut",
+      "name": "Moong Dhuli",
+      "slug": "moong-dhuli",
       "category": "Pulses",
-      "image": "/pulses/masursabut.webp",
+      "image": "/pulses/moong-dhuli.png",
       "sku": "PL001",
       "stock": 100,
       "description": "Premium whole masur lentils.",
@@ -224,27 +201,18 @@
           "quantity": "5 KG"
         }
       ],
-      "relatedProducts": [
-        "Moong Sabut",
-        "Mix Dal",
-        "Urad Sabut"
-      ]
+      "relatedProducts": ["Moong Sabut", "Mix Dal", "Urad Sabut"]
     },
     {
       "id": "P008",
-      "name": "Moong Sabut",
-      "slug": "moong-sabut",
+      "name": "Massar Dal",
+      "slug": "massar-dal",
       "category": "Pulses",
-      "image": "/pulses/moongsabut.webp",
+      "image": "/pulses/massar-dal.png",
       "sku": "PL002",
       "stock": 100,
       "description": "Premium whole green gram.",
-      "highlights": [
-        "Nutritious",
-        "High protein",
-        "Machine cleaned",
-        "Fresh"
-      ],
+      "highlights": ["Nutritious", "High protein", "Machine cleaned", "Fresh"],
       "variants": [
         {
           "quantity": "1 KG"
@@ -253,18 +221,14 @@
           "quantity": "5 KG"
         }
       ],
-      "relatedProducts": [
-        "Masur Sabut",
-        "Mix Dal",
-        "Urad Sabut"
-      ]
+      "relatedProducts": ["Masur Sabut", "Mix Dal", "Urad Sabut"]
     },
     {
       "id": "P009",
-      "name": "Mix Dal",
-      "slug": "mix-dal",
+      "name": "Urad Chilka",
+      "slug": "urad-chilka",
       "category": "Pulses",
-      "image": "/pulses/mixdal.webp",
+      "image": "/pulses/urad-chilka.png",
       "sku": "PL003",
       "stock": 100,
       "description": "Healthy blend of premium dals.",
@@ -282,18 +246,14 @@
           "quantity": "5 KG"
         }
       ],
-      "relatedProducts": [
-        "Masur Sabut",
-        "Moong Sabut",
-        "Urad Sabut"
-      ]
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Urad Sabut"]
     },
     {
       "id": "P010",
-      "name": "Urad Sabut",
-      "slug": "urad-sabut",
+      "name": "Moong Sabut",
+      "slug": "moong-sabut",
       "category": "Pulses",
-      "image": "/pulses/uradsabut.webp",
+      "image": "/pulses/moong-sabut.png",
       "sku": "PL004",
       "stock": 100,
       "description": "Premium whole urad dal.",
@@ -311,18 +271,214 @@
           "quantity": "5 KG"
         }
       ],
-      "relatedProducts": [
-        "Masur Sabut",
-        "Moong Sabut",
-        "Mix Dal"
-      ]
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
     },
     {
       "id": "P011",
+      "name": "Urad Sabut",
+      "slug": "urad-sabut",
+      "category": "Pulses",
+      "image": "/pulses/urad-sabut.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P012",
+      "name": "Arhar Dal",
+      "slug": "arhar-dal",
+      "category": "Pulses",
+      "image": "/pulses/arhar-dal.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P013",
+      "name": "Kala Chana",
+      "slug": "kala-chana",
+      "category": "Pulses",
+      "image": "/pulses/kala-chana.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P014",
+      "name": "Rajma Chitra",
+      "slug": "rajma-chitra",
+      "category": "Pulses",
+      "image": "/pulses/rajma-chitra.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P015",
+      "name": "Lobia Dal",
+      "slug": "lobia-dal",
+      "category": "Pulses",
+      "image": "/pulses/lobia.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P016",
+      "name": "Massar Dal",
+      "slug": "massar-dal2",
+      "category": "Pulses",
+      "image": "/pulses/massar-dal2.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P017",
+      "name": "Masoor Sabut",
+      "slug": "masoor-sabut",
+      "category": "Pulses",
+      "image": "/pulses/masoor-saabut.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P018",
+      "name": "Rajma Jammu",
+      "slug": "rajma-jammu",
+      "category": "Pulses",
+      "image": "/pulses/rajma-jammu.png",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole urad dal.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        {
+          "quantity": "1 KG"
+        },
+        {
+          "quantity": "5 KG"
+        }
+      ],
+      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+    },
+    {
+      "id": "P019",
       "name": "OxyBoom Bartan Bar",
       "slug": "oxyboom-bartan-bar",
       "category": "Detergent",
-      "image": "/detargent/oxyboombartanbar.webp",
+      "image": "/detargent/detergent1.png",
       "sku": "DT001",
       "stock": 100,
       "description": "Dishwash bar for powerful grease removal.",
@@ -340,17 +496,14 @@
           "quantity": "500 GM"
         }
       ],
-      "relatedProducts": [
-        "OxyBoom Detergent Powder",
-        "OxyBoom Detergent Bar"
-      ]
+      "relatedProducts": ["OxyBoom Detergent Powder", "OxyBoom Detergent Bar"]
     },
     {
-      "id": "P012",
-      "name": "OxyBoom Detergent Powder",
-      "slug": "oxyboom-detergent-powder",
+      "id": "P020",
+      "name": "OxyBoom Detergent Bar",
+      "slug": "oxyboom-detergent-bar",
       "category": "Detergent",
-      "image": "/detargent/oxyboomdetargentpowder.webp",
+      "image": "/detargent/detergent2.png",
       "sku": "DT002",
       "stock": 100,
       "description": "Advanced detergent powder for deep cleaning.",
@@ -368,17 +521,14 @@
           "quantity": "1 KG"
         }
       ],
-      "relatedProducts": [
-        "OxyBoom Bartan Bar",
-        "OxyBoom Detergent Bar"
-      ]
+      "relatedProducts": ["OxyBoom Bartan Bar", "OxyBoom Detergent Bar"]
     },
     {
-      "id": "P013",
+      "id": "P021",
       "name": "OxyBoom Detergent Bar",
       "slug": "oxyboom-detergent-bar",
       "category": "Detergent",
-      "image": "/detargent/oxyboomdetargentbar.webp",
+      "image": "/detargent/detergent3.png",
       "sku": "DT003",
       "stock": 100,
       "description": "Detergent bar for effective stain removal.",
@@ -396,10 +546,57 @@
           "quantity": "500 GM"
         }
       ],
-      "relatedProducts": [
-        "OxyBoom Bartan Bar",
-        "OxyBoom Detergent Powder"
-      ]
+      "relatedProducts": ["OxyBoom Bartan Bar", "OxyBoom Detergent Powder"]
+    },
+    {
+      "id": "P022",
+      "name": "OxyBoom Detergent Powder",
+      "slug": "oxyboom-detergent-powder",
+      "category": "Detergent",
+      "image": "/detargent/detergent4.png",
+      "sku": "DT003",
+      "stock": 100,
+      "description": "Detergent bar for effective stain removal.",
+      "highlights": [
+        "Tough on stains",
+        "Fabric safe",
+        "Rich foam",
+        "Daily use"
+      ],
+      "variants": [
+        {
+          "quantity": "250 GM"
+        },
+        {
+          "quantity": "500 GM"
+        }
+      ],
+      "relatedProducts": ["OxyBoom Bartan Bar", "OxyBoom Detergent Powder"]
+    },
+    {
+      "id": "P023",
+      "name": "OxyBoom Detergent Bar",
+      "slug": "oxyboom-detergent-bar",
+      "category": "Detergent",
+      "image": "/detargent/detergent5.png",
+      "sku": "DT003",
+      "stock": 100,
+      "description": "Detergent bar for effective stain removal.",
+      "highlights": [
+        "Tough on stains",
+        "Fabric safe",
+        "Rich foam",
+        "Daily use"
+      ],
+      "variants": [
+        {
+          "quantity": "250 GM"
+        },
+        {
+          "quantity": "500 GM"
+        }
+      ],
+      "relatedProducts": ["OxyBoom Bartan Bar", "OxyBoom Detergent Powder"]
     }
   ]
 }

@@ -6,13 +6,9 @@ import { useState } from "react";
 const CATEGORIES = [
   "All",
   "Edible Oils",
-  "Besan",
-  "Atta",
-  "Maida",
-  "Poha",
-  "Sooji",
+  "Flour & Mixes",
   "Pulses",
-  "Detergent Bar",
+  "Detergent",
 ];
 
 export default function ProductsPage() {
