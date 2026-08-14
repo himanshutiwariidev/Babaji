@@ -18,6 +18,9 @@ export const metadata = {
   title: "Babaji Brand",
   description:
     "Premium quality edible oils, atta, besan and pulses since 1983.",
+    icons:{
+      icon:"/logo.webp"
+    }
 };
 
 export default function RootLayout({ children }) {

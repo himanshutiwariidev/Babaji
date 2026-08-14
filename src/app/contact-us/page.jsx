@@ -16,9 +16,9 @@ export default function ContactPage() {
 
       {/* Contact Cards */}
       <section className=" bg-gray-50">
-        <div className="w-full h-[180px] md:h-[500px]">
+        <div className="w-full h-[180px] md:h-[550px]">
           <img
-            src="/contact.webp"
+            src="/contact-banner.png"
             alt=""
             className="w-full h-full object-cover"
           />

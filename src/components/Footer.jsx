@@ -135,34 +135,24 @@ export default function Footer() {
 
             <ul className="space-y-4 text-gray-400">
               <li>
-                <Link href="/about" className="hover:text-red-500 transition">
+                <Link href="/about-us" className="hover:text-red-500 transition">
                   About Us
                 </Link>
               </li>
 
-              <li>
-                <Link href="/quality-policy" className="hover:text-red-500 transition">
-                  Quality Policy
-                </Link>
-              </li>
 
               <li>
-                <Link href="/contact" className="hover:text-red-500 transition">
+                <Link href="/contact-us" className="hover:text-red-500 transition">
                   Contact Us
                 </Link>
               </li>
 
               <li>
-                <Link href="/blogs" className="hover:text-red-500 transition">
+                <Link href="/blog" className="hover:text-red-500 transition">
                   Blogs
                 </Link>
               </li>
 
-              <li>
-                <Link href="/privacy-policy" className="hover:text-red-500 transition">
-                  Privacy Policy
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -219,21 +209,6 @@ export default function Footer() {
             All Rights Reserved.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-6 text-white">
-
-            <Link href="/privacy-policy">
-              Privacy Policy
-            </Link>
-
-            <Link href="/terms-and-conditions">
-              Terms & Conditions
-            </Link>
-
-            <Link href="/shipping-policy">
-              Shipping Policy
-            </Link>
-
-          </div>
 
         </div>
       </div>

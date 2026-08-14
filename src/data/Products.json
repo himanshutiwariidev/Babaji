@@ -4,7 +4,7 @@
       "id": "cat-001",
       "name": "Edible Oils",
       "slug": "edible-oils",
-      "image": "/images/edible.png",
+      "image": "/images/edible-oil.png",
       "description": "Pure & natural oils cold-pressed for superior taste and nutrition"
     },
    
@@ -12,7 +12,7 @@
       "id": "cat-002",
       "name": "flour & mixes",
       "slug": "flour-mixes",
-      "image": "/images/flour.png",
+      "image": "/images/flour-mixes.png",
       "description": "High-quality flours and baking mixes for all your culinary needs"
     },
    
@@ -20,7 +20,7 @@
       "id": "cat-003",
       "name": "Pulses",
       "slug": "pulses",
-      "image": "/images/pulses.png",
+      "image": "/images/pulsess.png",
       "description": "Protein-rich lentils and legumes, cleaned and ready to cook"
     },
     {

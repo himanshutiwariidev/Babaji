@@ -8,9 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const banners = [
-  "/banner1.webp",
-  "/banner1.webp",
-  "/banner1.webp",
+  "/heros1.png",
+  "/heroos2.png",
 ];
 
 export default function Hero() {
@@ -25,7 +24,7 @@ export default function Hero() {
         loop={true}
         pagination={{ clickable: true }}
         navigation={true}
-        className="h-[280px] md:h-[500px] lg:h-[650px]"
+        className="h-[190px] md:h-[500px] lg:h-[700px]"
       >
         {banners.map((banner, index) => (
           <SwiperSlide key={index}>
