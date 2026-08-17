@@ -1,6 +1,12 @@
 import productsData from "@/data/Products.json";
 import ProductDetailClient from "./ProductDetailClient";
 
+export function generateStaticParams() {
+  return productsData.products.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
 export default async function ProductPage({ params }) {
   const { slug } = await params;
 

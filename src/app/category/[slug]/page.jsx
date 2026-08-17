@@ -1,6 +1,12 @@
 import ProductsData from "@/data/Products.json";
 import Link from "next/link";
 
+export function generateStaticParams() {
+  return ProductsData.categories.map((cat) => ({
+    slug: cat.slug,
+  }));
+}
+
 export default async function CategoryPage({ params }) {
   const { slug } = await params;
 
