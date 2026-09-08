@@ -50,10 +50,7 @@
       ],
       "variants": [
         {
-          "quantity": "1 Litre"
-        },
-        {
-          "quantity": "5 Litre"
+          "quantity": "2 Litre"
         }
       ],
       "relatedProducts": ["Soyabean Oil", "Til Oil"]
@@ -179,14 +176,14 @@
       "relatedProducts": ["Atta", "Besan"]
     },
     {
-      "id": "P007",
-      "name": "Moong Dhuli",
-      "slug": "moong-dhuli",
+      "id": "PU001",
+      "name": "Arhar Dal",
+      "slug": "arhar-dal",
       "category": "Pulses",
-      "image": "/pulses/moong-dhuli.png",
+      "image": "/pulse/arhardal.jpeg",
       "sku": "PL001",
       "stock": 100,
-      "description": "Premium whole masur lentils.",
+      "description": "Premium quality split pigeon pea dal, rich in protein and flavour.",
       "highlights": [
         "High protein",
         "Machine cleaned",
@@ -194,44 +191,99 @@
         "Premium quality"
       ],
       "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
       ],
-      "relatedProducts": ["Moong Sabut", "Mix Dal", "Urad Sabut"]
+      "relatedProducts": ["Mix Dal", "Moong Sabut Dal", "Urad Sabut"]
     },
     {
-      "id": "P008",
+      "id": "PU002",
+      "name": "Chana Dal",
+      "slug": "chana-dal",
+      "category": "Pulses",
+      "image": "/pulse/chanadal.jpeg",
+      "sku": "PL002",
+      "stock": 100,
+      "description": "Premium split Bengal gram, cleaned and polished for everyday cooking.",
+      "highlights": ["Nutritious", "High protein", "Machine cleaned", "Fresh"],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Safed Chana Dollar", "Kala Chana", "Mix Dal"]
+    },
+    {
+      "id": "PU003",
+      "name": "Kala Chana",
+      "slug": "kala-chana",
+      "category": "Pulses",
+      "image": "/pulse/kalachana.jpeg",
+      "sku": "PL003",
+      "stock": 100,
+      "description": "Premium whole black chana, packed with fibre and protein.",
+      "highlights": [
+        "Rich in fibre",
+        "High protein",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Chana Dal", "Safed Chana Dollar", "Rajma Chitra"]
+    },
+    {
+      "id": "PU004",
+      "name": "Masoor Sabut Dal",
+      "slug": "masoor-sabut-dal",
+      "category": "Pulses",
+      "image": "/pulse/masoorsabut.jpeg",
+      "sku": "PL004",
+      "stock": 100,
+      "description": "Premium whole masoor lentils with rich taste and nutrition.",
+      "highlights": [
+        "High protein",
+        "Machine cleaned",
+        "Fresh",
+        "Premium quality"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Massar Dal", "Mix Dal", "Moong Sabut Dal"]
+    },
+    {
+      "id": "PU005",
       "name": "Massar Dal",
       "slug": "massar-dal",
       "category": "Pulses",
-      "image": "/pulses/massar-dal.png",
-      "sku": "PL002",
+      "image": "/pulse/massardal.jpeg",
+      "sku": "PL005",
       "stock": 100,
-      "description": "Premium whole green gram.",
-      "highlights": ["Nutritious", "High protein", "Machine cleaned", "Fresh"],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
+      "description": "Premium split masoor dal, cleaned and polished for daily cooking.",
+      "highlights": [
+        "Rich in protein",
+        "Machine cleaned",
+        "Fresh",
+        "Premium quality"
       ],
-      "relatedProducts": ["Masur Sabut", "Mix Dal", "Urad Sabut"]
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Masoor Sabut Dal", "Mix Dal", "Arhar Dal"]
     },
     {
-      "id": "P009",
-      "name": "Urad Chilka",
-      "slug": "urad-chilka",
+      "id": "PU006",
+      "name": "Mix Dal",
+      "slug": "mix-dal",
       "category": "Pulses",
-      "image": "/pulses/urad-chilka.png",
-      "sku": "PL003",
+      "image": "/pulse/mixdal.jpeg",
+      "sku": "PL006",
       "stock": 100,
-      "description": "Healthy blend of premium dals.",
+      "description": "Healthy blend of premium dals for balanced nutrition.",
       "highlights": [
         "Balanced nutrition",
         "Rich protein",
@@ -239,24 +291,62 @@
         "Quality packed"
       ],
       "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
       ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Urad Sabut"]
+      "relatedProducts": ["Arhar Dal", "Massar Dal", "Moong Dhuli Dal"]
     },
     {
-      "id": "P010",
-      "name": "Moong Sabut",
-      "slug": "moong-sabut",
+      "id": "PU007",
+      "name": "Moong Chilka Dal",
+      "slug": "moong-chilka-dal",
       "category": "Pulses",
-      "image": "/pulses/moong-sabut.png",
-      "sku": "PL004",
+      "image": "/pulse/moongchilkadal.jpeg",
+      "sku": "PL007",
       "stock": 100,
-      "description": "Premium whole urad dal.",
+      "description": "Premium split green gram with skin, rich in fibre and protein.",
+      "highlights": [
+        "High protein",
+        "Machine cleaned",
+        "Fresh",
+        "Premium quality"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Moong Dhuli Dal", "Moong Sabut Dal", "Mix Dal"]
+    },
+    {
+      "id": "PU008",
+      "name": "Moong Dhuli Dal",
+      "slug": "moong-dhuli-dal",
+      "category": "Pulses",
+      "image": "/pulse/moongdhulidal.jpeg",
+      "sku": "PL008",
+      "stock": 100,
+      "description": "Premium washed and split green gram, soft and easy to cook.",
+      "highlights": [
+        "High protein",
+        "Machine cleaned",
+        "Fresh",
+        "Premium quality"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Moong Chilka Dal", "Moong Sabut Dal", "Mix Dal"]
+    },
+    {
+      "id": "PU009",
+      "name": "Moong Sabut Dal",
+      "slug": "moong-sabut-dal",
+      "category": "Pulses",
+      "image": "/pulse/moongsabutdal.jpeg",
+      "sku": "PL009",
+      "stock": 100,
+      "description": "Premium whole green gram, packed with protein and nutrition.",
       "highlights": [
         "Protein rich",
         "Premium grains",
@@ -264,99 +354,20 @@
         "Fresh"
       ],
       "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
       ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+      "relatedProducts": ["Moong Dhuli Dal", "Moong Chilka Dal", "Urad Sabut"]
     },
     {
-      "id": "P011",
-      "name": "Urad Sabut",
-      "slug": "urad-sabut",
-      "category": "Pulses",
-      "image": "/pulses/urad-sabut.png",
-      "sku": "PL004",
-      "stock": 100,
-      "description": "Premium whole urad dal.",
-      "highlights": [
-        "Protein rich",
-        "Premium grains",
-        "Machine cleaned",
-        "Fresh"
-      ],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
-      ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
-    },
-    {
-      "id": "P012",
-      "name": "Arhar Dal",
-      "slug": "arhar-dal",
-      "category": "Pulses",
-      "image": "/pulses/arhar-dal.png",
-      "sku": "PL004",
-      "stock": 100,
-      "description": "Premium whole urad dal.",
-      "highlights": [
-        "Protein rich",
-        "Premium grains",
-        "Machine cleaned",
-        "Fresh"
-      ],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
-      ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
-    },
-    {
-      "id": "P013",
-      "name": "Kala Chana",
-      "slug": "kala-chana",
-      "category": "Pulses",
-      "image": "/pulses/kala-chana.png",
-      "sku": "PL004",
-      "stock": 100,
-      "description": "Premium whole urad dal.",
-      "highlights": [
-        "Protein rich",
-        "Premium grains",
-        "Machine cleaned",
-        "Fresh"
-      ],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
-      ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
-    },
-    {
-      "id": "P014",
+      "id": "PU010",
       "name": "Rajma Chitra",
       "slug": "rajma-chitra",
       "category": "Pulses",
-      "image": "/pulses/rajma-chitra.png",
-      "sku": "PL004",
+      "image": "/pulse/rajmachitra.jpeg",
+      "sku": "PL010",
       "stock": 100,
-      "description": "Premium whole urad dal.",
+      "description": "Premium speckled kidney beans, soft textured and rich in protein.",
       "highlights": [
         "Protein rich",
         "Premium grains",
@@ -364,99 +375,20 @@
         "Fresh"
       ],
       "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
       ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+      "relatedProducts": ["Rajma Jammu", "Kala Chana", "Mix Dal"]
     },
     {
-      "id": "P015",
-      "name": "Lobia Dal",
-      "slug": "lobia-dal",
-      "category": "Pulses",
-      "image": "/pulses/lobia.png",
-      "sku": "PL004",
-      "stock": 100,
-      "description": "Premium whole urad dal.",
-      "highlights": [
-        "Protein rich",
-        "Premium grains",
-        "Machine cleaned",
-        "Fresh"
-      ],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
-      ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
-    },
-    {
-      "id": "P016",
-      "name": "Massar Dal",
-      "slug": "massar-dal2",
-      "category": "Pulses",
-      "image": "/pulses/massar-dal2.png",
-      "sku": "PL004",
-      "stock": 100,
-      "description": "Premium whole urad dal.",
-      "highlights": [
-        "Protein rich",
-        "Premium grains",
-        "Machine cleaned",
-        "Fresh"
-      ],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
-      ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
-    },
-    {
-      "id": "P017",
-      "name": "Masoor Sabut",
-      "slug": "masoor-sabut",
-      "category": "Pulses",
-      "image": "/pulses/masoor-saabut.png",
-      "sku": "PL004",
-      "stock": 100,
-      "description": "Premium whole urad dal.",
-      "highlights": [
-        "Protein rich",
-        "Premium grains",
-        "Machine cleaned",
-        "Fresh"
-      ],
-      "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
-      ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
-    },
-    {
-      "id": "P018",
+      "id": "PU011",
       "name": "Rajma Jammu",
       "slug": "rajma-jammu",
       "category": "Pulses",
-      "image": "/pulses/rajma-jammu.png",
-      "sku": "PL004",
+      "image": "/pulse/rajmajammu.jpeg",
+      "sku": "PL011",
       "stock": 100,
-      "description": "Premium whole urad dal.",
+      "description": "Premium dark red kidney beans sourced from Jammu, rich in protein.",
       "highlights": [
         "Protein rich",
         "Premium grains",
@@ -464,14 +396,94 @@
         "Fresh"
       ],
       "variants": [
-        {
-          "quantity": "1 KG"
-        },
-        {
-          "quantity": "5 KG"
-        }
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
       ],
-      "relatedProducts": ["Masur Sabut", "Moong Sabut", "Mix Dal"]
+      "relatedProducts": ["Rajma Chitra", "Kala Chana", "Mix Dal"]
+    },
+    {
+      "id": "PU012",
+      "name": "Safed Chana Dollar",
+      "slug": "safed-chana-dollar",
+      "category": "Pulses",
+      "image": "/pulse/safedchanadollar.jpeg",
+      "sku": "PL012",
+      "stock": 100,
+      "description": "Premium large-sized white chana, popular for snacks and curries.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Chana Dal", "Kala Chana", "Mix Dal"]
+    },
+    {
+      "id": "PU013",
+      "name": "Urad Chilka Dal",
+      "slug": "urad-chilka-dal",
+      "category": "Pulses",
+      "image": "/pulse/uradchilkadal.jpeg",
+      "sku": "PL013",
+      "stock": 100,
+      "description": "Premium split black gram with skin, rich in fibre and protein.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Urad Dhuli Dal", "Urad Sabut", "Mix Dal"]
+    },
+    {
+      "id": "PU014",
+      "name": "Urad Dhuli Dal",
+      "slug": "urad-dhuli-dal",
+      "category": "Pulses",
+      "image": "/pulse/uraddhulidal.jpeg",
+      "sku": "PL014",
+      "stock": 100,
+      "description": "Premium washed and split black gram, soft textured and easy to cook.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Urad Chilka Dal", "Urad Sabut", "Mix Dal"]
+    },
+    {
+      "id": "PU015",
+      "name": "Urad Sabut",
+      "slug": "urad-sabut",
+      "category": "Pulses",
+      "image": "/pulse/uradsabut.jpeg",
+      "sku": "PL015",
+      "stock": 100,
+      "description": "Premium whole black gram, packed with protein and nutrition.",
+      "highlights": [
+        "Protein rich",
+        "Premium grains",
+        "Machine cleaned",
+        "Fresh"
+      ],
+      "variants": [
+        { "quantity": "1 KG" },
+        { "quantity": "5 KG" }
+      ],
+      "relatedProducts": ["Urad Chilka Dal", "Urad Dhuli Dal", "Mix Dal"]
     },
     {
       "id": "P019",

@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 const banners = [
   "/heros1.png",
-  "/heroos2.png",
+  "/heroos2.webp",
 ];
 
 export default function Hero() {
